@@ -1,0 +1,21 @@
+{
+  "name": "memoize-dom",
+  "devDependencies": {
+    "esbuild": "^0.15.12",
+    "eslint": "^8.26.0",
+    "express": "^4.18.2",
+    "postcss": "^8.4.18",
+    "postcss-mixins": "^9.0.4",
+    "postcss-preset-env": "^7.8.2",
+    "sass": "^1.55.0",
+    "source-map-explorer": "^2.5.3"
+  },
+  "scripts": {
+    "prestart": "start http://localhost:3000",
+    "start": "node lib/utils/build.server.js",
+    "prebuild": "rimraf build",
+    "build": "node lib/utils/build.js",
+    "lint": "eslint . --ext .js --fix",
+    "analysis": "source-map-explorer build/*.js build/*.css"
+  }
+}
