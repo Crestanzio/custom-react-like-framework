@@ -14,4 +14,4 @@
 
 &nbsp;
 >[!WARNING]
-> Τhis is just a personal experiment, is not recommended for production
+> Τhis is just a personal experiment, is not completed.
